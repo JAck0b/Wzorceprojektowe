@@ -5,15 +5,15 @@ public class Architect { // Invoker
 
   public void paintWalls(House house, String color) {
     Command command = new PaintWallsCommand(color);
-    house.doAction(command);
+//    house.doAction(command);
     // można chyba też po prostu dać
-    // command.execute(house);
+     command.execute(house);
   }
 
   public void paintDoor(House house, String color) {
     Command command = new PaintDoorCommand(color);
-    house.doAction(command);
+//    house.doAction(command);
     // można chyba też po prostu dać
-    // command.execute(house);
+     command.execute(house);
   }
 }

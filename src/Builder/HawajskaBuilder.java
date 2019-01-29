@@ -13,6 +13,7 @@ public class HawajskaBuilder implements AbstractPizzaBuilder {
     pizza.setNazwa("Hawajska");
     arrayList = new ArrayList<>();
   }
+
   @Override
   public void pierwszyDodatek() {
     arrayList.add("Ser");
